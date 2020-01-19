@@ -31,7 +31,7 @@
 
 // Use one of these or SDCard-based Emulation will be used
 //#define SRAM_EEPROM_EMULATION   // Use BackSRAM-based EEPROM emulation
-//#define FLASH_EEPROM_EMULATION  // Use Flash-based EEPROM emulation
+#define FLASH_EEPROM_EMULATION  // Use Flash-based EEPROM emulation
 
 //
 // Servos
@@ -45,7 +45,7 @@
 #define X_MAX_PIN          PE15
 #define Y_MIN_PIN          PE12
 #define Y_MAX_PIN          PE10
-#define Z_MIN_PIN          PG8
+#define Z_MIN_PIN          PA2
 #define Z_MAX_PIN          PG5
 
 //
