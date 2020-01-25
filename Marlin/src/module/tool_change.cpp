@@ -861,7 +861,7 @@ void tool_change(const uint8_t new_tool, bool no_move/*=false*/) {
       }
     #endif // TOOLCHANGE_FILAMENT_SWAP
 
-    #if HAS_LEVELING
+    #if HAS_LEVELING && DISABLED(SINGLENOZZLE)
       // Set current position to the physical position
       TEMPORARY_BED_LEVELING_STATE(false);
     #endif
