@@ -735,7 +735,7 @@
  * Override with M92
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 92.646 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 400, 99.4 }
 
 /**
  * Default Max Feed Rate (mm/s)
@@ -782,7 +782,7 @@
  * When changing speed and direction, if the difference is less than the
  * value set here, it may happen instantaneously.
  */
-#define CLASSIC_JERK
+//#define CLASSIC_JERK
 #if ENABLED(CLASSIC_JERK)
   #define DEFAULT_XJERK 15.0
   #define DEFAULT_YJERK 15.0
