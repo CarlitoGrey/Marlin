@@ -1542,7 +1542,7 @@
   #define MESH_MIN_X MESH_INSET
   #define MESH_MIN_Y MESH_INSET
   #define MESH_MAX_X X_BED_SIZE + 40 //Increase mesh width to allow for nozzle going to the purge bucket. 
-  #define MESH_MAX_Y Y_BED_SIZE - (MESH_INSET)
+  #define MESH_MAX_Y Y_BED_SIZE + 40
 #endif
 
 /**
